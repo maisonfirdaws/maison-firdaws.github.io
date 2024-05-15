@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f1f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffccd5;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ff99a8;
+        }
+        header h1 {
+            color: #ff6f91;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff6f91;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+        }
+        .intro h2 {
+            color: #ff6f91;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: #ffffff;
+            border: 1px solid #ff99a8;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            color: #ff6f91;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffccd5;
+            border-top: 2px solid #ff99a8;
+        }
+        footer p {
+            margin: 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Ma Page Personnelle</h1>
+    </header>
+    <nav>
+        <a href="#about">À Propos</a>
+        <a href="#products">Produits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="intro">
+            <h2>À Propos de Moi</h2>
+            <p>Passionnée par la mode et les couleurs pastel, je crée des tote bags islamiques et épurés pour que tout le monde puisse les porter avec fierté. Mon style reflète une touche féminine avec des nuances rosées inspirées par les couchers de soleil et les paysages naturels.</p>
+        </section>
+        <section id="products" class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300.png?text=Tote+Bag+1" alt="Tote Bag 1">
+                <h3>Tote Bag 1</h3>
+                <p>Un tote bag élégant et épuré avec une touche islamique. Parfait pour toutes les occasions.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x300.png?text=Tote+Bag+2" alt="Tote Bag 2">
+                <h3>Tote Bag 2</h3>
+                <p>Un tote bag élégant et épuré avec une touche islamique. Parfait pour toutes les occasions.</p>
+            </div>
+        </section>
+        <section id="contact" class="intro">
+            <h2>Contact</h2>
+            <p>Pour toute question ou commande, veuillez me contacter à l'adresse suivante : <a href="mailto:email@example.com">email@example.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ma Page Personnelle. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
